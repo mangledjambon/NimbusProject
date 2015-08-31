@@ -4,8 +4,8 @@
 |///////////////////////////////////////////////|
 =================================================
 Author: 	Sean Breen (sean.breen@mycit.ie)
-Date:		18/8/2015
-Version: 	1.1
+Date:		31/8/2015
+Version: 	1.0
 
 PanRev is an application to extract and view the pan information from stereo audio files.
 
