@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rNTDgJ" name="PanRev" projectType="guiapp" version="1.1.0"
+              bundleIdentifier="com.nimbus.PanRev" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="Hc6IFr" name="PanRev">
+    <GROUP id="{FB12FFDF-0510-0210-61C3-C6BEFEC532D3}" name="res">
+      <FILE id="JKheBM" name="ff.png" compile="0" resource="1" file="res/ff.png"/>
+      <FILE id="dbZN4q" name="pause.png" compile="0" resource="1" file="res/pause.png"/>
+      <FILE id="N2NvtT" name="play.png" compile="0" resource="1" file="res/play.png"/>
+      <FILE id="AudXnT" name="rewind.png" compile="0" resource="1" file="res/rewind.png"/>
+      <FILE id="L5Bb3a" name="stop.png" compile="0" resource="1" file="res/stop.png"/>
+    </GROUP>
+    <GROUP id="{0EB3A1C8-5F5A-23C8-5BC3-6AD7901D8142}" name="Source">
+      <FILE id="DcRbOY" name="PositionableMixerSource.cpp" compile="1" resource="0"
+            file="Source/PositionableMixerSource.cpp"/>
+      <FILE id="yC0zQ7" name="PositionableMixerSource.h" compile="0" resource="0"
+            file="Source/PositionableMixerSource.h"/>
+      <FILE id="OYNz0B" name="TrackComponent.cpp" compile="1" resource="0"
+            file="Source/TrackComponent.cpp"/>
+      <FILE id="pQN96P" name="TrackComponent.h" compile="0" resource="0"
+            file="Source/TrackComponent.h"/>
+      <FILE id="Tl2RCh" name="ThumbnailComp.cpp" compile="1" resource="0"
+            file="Source/ThumbnailComp.cpp"/>
+      <FILE id="DuMirw" name="ThumbnailComp.h" compile="0" resource="0" file="Source/ThumbnailComp.h"/>
+      <FILE id="aH3ZPQ" name="ToolbarFactory.h" compile="0" resource="0"
+            file="Source/ToolbarFactory.h"/>
+      <FILE id="hnWTrC" name="Constants.h" compile="0" resource="0" file="Source/Constants.h"/>
+      <FILE id="KKFo87" name="LoadTask.cpp" compile="1" resource="0" file="Source/LoadTask.cpp"/>
+      <FILE id="Ls5H3l" name="LoadTask.h" compile="0" resource="0" file="Source/LoadTask.h"/>
+      <FILE id="V7qaEt" name="Source.h" compile="0" resource="0" file="Source/Source.h"/>
+      <FILE id="Y3lGo8" name="PanExtractor.cpp" compile="1" resource="0"
+            file="Source/PanExtractor.cpp"/>
+      <FILE id="SqEjpM" name="PanExtractor.h" compile="0" resource="0" file="Source/PanExtractor.h"/>
+      <FILE id="D6fhcB" name="STFT.cpp" compile="1" resource="0" file="Source/STFT.cpp"/>
+      <FILE id="Ffhunh" name="STFT.h" compile="0" resource="0" file="Source/STFT.h"/>
+      <FILE id="QBAFKE" name="ISTFT.cpp" compile="1" resource="0" file="Source/ISTFT.cpp"/>
+      <FILE id="jdpGNy" name="ISTFT.h" compile="0" resource="0" file="Source/ISTFT.h"/>
+      <FILE id="EetbQC" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="CX5lH4" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <FILE id="y10pye" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="STQlGK" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="UkcIdg" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="PanRev"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="PanRev"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="2" targetName="PanRev"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="PanRev"/>
+        <CONFIGURATION name="Release_x64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="PanRev"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="PanRev"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="PanRev"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="PanRev"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="PanRev"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
